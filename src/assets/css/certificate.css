@@ -1,0 +1,102 @@
+.certificate {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: small;
+}
+
+.certificate h5 {
+    font-size: 12pt;
+}
+
+.certificate h3 {
+    font-size: 18pt;
+}
+
+.certificate h4 {
+    font-size: 14pt;
+}
+
+.certificate .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.certificate .header {
+    text-align: center;
+}
+
+.certificate .header-top {
+    text-align: center;
+}
+
+.certificate .container {
+    border-top: solid;
+    border-color: red;
+}
+
+.certificate .container .officials {
+    text-align: center;
+}
+
+.certificate .container .officials .container-box {
+    margin-top: 25px;
+    border: dotted;
+    border-color: red;
+    border-width: thin;
+}
+
+.certificate .container .contents {
+    margin-top: 50px;
+}
+
+.certificate .contents .signee {
+    margin-top: 150px;
+    text-align: center;
+    /* margin-bottom: 3rem; */
+}
+
+.certificate .footer .right-thumb {
+    border: dotted;
+    border-color: black;
+    border-width: thin;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.certificate .footer .tax-payer {
+    text-align: center;
+    margin-top: 2rem;
+    margin-right: 60px;
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .certificate .contents .signee {
+        float: right;
+        margin-right: 60px;
+    }
+
+    .certificate .container .officials {
+        width: 230px;
+    }
+
+    .certificate .footer .right-thumb {
+        width: 250px;
+        float: right;
+        margin-right: 60px;
+    }
+
+    .certificate .left-logo {
+        width: 100px;
+    }
+
+    .certificate .header-top {
+        width: 460px;
+    }
+
+    .certificate .right-logo {
+        width: 100px;
+    }
+}

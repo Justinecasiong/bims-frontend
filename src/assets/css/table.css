@@ -1,0 +1,85 @@
+.page-header h1 {
+    font-size: 24pt;
+    margin-bottom: 30px;
+}
+
+.table_status h6 {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: end;
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.page-header .filter {
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: -10px;
+}
+
+.other-btn {
+    display: flex;
+    justify-content: end;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    display: flex;
+    justify-content: end;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.dropdown select {
+    height: -10%;
+}
+
+.dropdown .input-group {
+    display: flex;
+    justify-content: start;
+    float: left;
+}
+
+.table-container {
+    margin: auto;
+    border: 1px solid;
+    border-color: rgb(172, 167, 167);
+    border-radius: 20px;
+    padding: 30px;
+    width: 80vw;
+}
+
+.table-container-blotter {
+    border: 1px solid;
+    border-color: rgb(172, 167, 167);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+table {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer .pagination {
+    display: flex;
+    justify-content: end;
+    float: right;
+}
+
+.card {
+    padding: 20px;
+    margin-bottom: 30px;
+}
